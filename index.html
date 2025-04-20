@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Saravanan | Portfolio</title>
   <link rel="stylesheet" href="./css/style.css" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -34,7 +34,7 @@
     <!-- Home Section -->
     <section class="home" id="home">
       <div class="profile-content">
-        <h1>Hi I'm Saravanan, Python Fullstack Developer</h1>
+        <h1>I am Saravanan   <span style="color:  #006400;" id="typing-text"></span></h1>
         <p>
           Hi, I’m Saravanan, a passionate Full-Stack Python Developer with a
           love for building dynamic and efficient web applications. With a
@@ -233,6 +233,9 @@
 
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
   <script>
     AOS.init({
       duration: 1000,
@@ -241,6 +244,17 @@
       easing: 'ease-in-out',
     });
   </script>
+    <script>
+      var typed = new Typed('#typing-text', {
+        strings: ['Fullstack Python Developer', ' Frontend Developer', 'React js Developer', 'Software Developer'],
+        typeSpeed: 100,
+        backspeed:100,
+        backdelay:500,
+        startdelay:750,
+        loop:true,
+      });
+    </script>
+  
 </body>
 
 </html>
